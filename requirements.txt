@@ -1,2 +1,6 @@
 streamlit==0.89.0
+<<<<<<< HEAD
 python-docx==0.8.10
+=======
+python-docx==0.8.10
+>>>>>>> 2c1f1bfbd2388e66bd1748e8610d1ef4e83e887d
