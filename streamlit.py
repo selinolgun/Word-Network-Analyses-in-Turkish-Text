@@ -6,7 +6,7 @@ png_listesi = ["wordcloud.png", "ngram.png", "anahtar.png", "duygu.png", "ilk50.
 
 baslik_listesi = ["Kelime Bulutu", "İkili Ngram Kelime Bulutu", "Anahtar Kelime Bulutu", "Duygusal Analiz", "En Önemli İlk 50 Kelime İlişki Haritası", "Kelimelerin Yakınlıklarına Göre Sınıflanmış Haritası", "Kelime Ağ Analizi", "Merkezilik Ağ Analizi", "İlişki Haritası (Hubs)", "İlişki Haritası (Authority)", "Cümlede Birlikte Bulunma (İsim & Sıfat)", "Bir Diğerini Takip Eden Kelimeler (İsim & Sıfat)", "Üç Kelime İçinde Birlikte Bulunma (İsim & Sıfat)", "Güç, Aradalık ve Ağırlık Merkezi", "Kelime Tipleri", "İsimler", "Fiiller", "Sıfatlar", "Sık Tekrar Eden Kelime Grafiği"]
 
-st.title('Grafikler ve Başlıklar')
+st.title('Türkçe Metinde Kelime Ağ Analizleri')
 
 doc = Document()
 
@@ -24,5 +24,3 @@ for baslik, png in zip(baslik_listesi, png_listesi):
     
     if sayac % 2 == 0:
         doc.add_page_break()
-
-st.write("Belgeler tarayıcıda gösterildi.")
