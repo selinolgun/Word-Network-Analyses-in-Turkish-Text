@@ -1,3 +1,5 @@
+pip install -r requirements.txt
+
 import streamlit as st
 from docx import Document
 from docx.shared import Cm
